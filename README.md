@@ -6,52 +6,82 @@ O sistema implementa comunicação cliente-servidor, com suporte a chats privado
 
 🎯 Funcionalidades
 ✅ Cadastro de usuários: nome completo, login, email e senha (sem duplicidade de nomes).
+
 ✅ Sistema de Login e Logout.
+
 ✅ Recuperação de senha mediante confirmação via e-mail.
+
 ✅ Alteração de status: online, offline, ocupado, etc.
+
 ✅ Listagem de grupos e usuários online.
+
 ✅ Mensagens privadas mediante aceite prévio.
+
 ✅ Criação de grupos, adição de usuários mediante convite e aceite.
+
 ✅ Comunicação em grupo com identificação de remetente e horário.
+
 ✅ Saída de grupo notificada aos demais membros.
+
 ✅ Solicitação de entrada em grupos mediante aprovação unânime.
+
 ✅ Envio de mensagens para um ou mais usuários, individual ou em grupo.
+
 ✅ Encaminhamento automático de mensagens não entregues quando usuário estiver online.
+
 ✅ Arquitetura multi-threaded: servidor aceita múltiplas conexões simultâneas.
+
 
 🏗️ Arquitetura do Sistema
 Servidor (Java Socket):
 
+
 Thread principal para escutar novas conexões.
+
 
 Nova thread para cada cliente conectado.
 
+
 Cliente (Java Socket):
+
 
 Thread para envio de mensagens.
 
+
 Thread para recebimento de mensagens.
+
 
 Banco de Dados:
 
+
 Implementado com SQLite via JDBC.
+
 
 Tabelas para usuários, grupos, mensagens e status.
 
+
 IDE utilizada: IntelliJ IDEA
+
 
 Documentação completa: incluída na pasta, em formato PDF.
 
+
 🛠️ Tecnologias Utilizadas
+
 Java SE
+
 
 Java Socket API
 
+
 Java Threads
+
 
 JDBC (para acesso ao banco de dados)
 
+
 IntelliJ IDEA (como ambiente de desenvolvimento)
+
 
 🚀 Como Executar o Projeto
 ✅ Pré-requisitos
