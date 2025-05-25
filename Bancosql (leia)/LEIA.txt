@@ -1,0 +1,1 @@
+se der algum erro especifico de banco de dados ao compilar o projeto remova o antigo e adicione novamente o sqlite aos libraries do projeto
