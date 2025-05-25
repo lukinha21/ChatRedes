@@ -96,7 +96,7 @@ Bibliotecas adicionais incluídas ou listadas na documentação.
 🔧 Passos
 Clone o repositório:
 
-git clone https://github.com/seuusuario/ChatRedes.git
+git clone https://github.com/lukinha21/ChatRedes.git
 Abra o projeto no IntelliJ IDEA:
 
 File > Open > selecione a pasta do projeto.
@@ -153,9 +153,13 @@ está disponível no arquivo:
 👥 Contribuidores
 
 Lucas Alexandre
+
 Beatriz Araújo
 
+
 🎓 Orientador
+
 Professor Robson Siscoutto
+
 University of the West of São Paulo - UNOESTE
 
